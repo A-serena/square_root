@@ -1,4 +1,3 @@
-print("hallo world!")
 #xの平方根を求める
 
 while True:
