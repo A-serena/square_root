@@ -2,6 +2,8 @@
 
 while True:
     x = input("正の数値を入力してください ")
+    if x == "end":
+        exit("終了します")
     try:
         x = float(x)
     except ValueError:
