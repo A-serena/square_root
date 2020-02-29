@@ -1,9 +1,9 @@
 # xの平方根を求める
-
+import sys
 while True:
     x = input("正の数値を入力してください ")
     if x == "end":
-        exit("終了します")
+        sys.exit("終了します")
     try:
         x = float(x)
     except ValueError:
